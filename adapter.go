@@ -31,6 +31,8 @@ type Options struct {
 	SkipDeclareQueue bool
 	AutoAck          bool
 
+	NumChannels int
+
 	// Function for message converting from amqp.Delivery to babex.Message
 	// Default rabbit.NewMessage
 	ConvertMessage Converter
@@ -197,4 +199,8 @@ func (a *Adapter) BindToExchange(exchange string, key string) error {
 
 func (a *Adapter) Close() error {
 	return a.Channel.Close()
+}
+
+func (a *Adapter) Channels() babex.Channels {
+	return nil
 }
