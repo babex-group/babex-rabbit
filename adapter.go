@@ -31,6 +31,8 @@ type Options struct {
 	SkipDeclareQueue bool
 	AutoAck          bool
 
+	Queue *amqp.Queue
+
 	NumChannels int
 
 	// Function for message converting from amqp.Delivery to babex.Message
@@ -83,6 +85,8 @@ func NewAdapter(options Options) (*Adapter, error) {
 		}
 
 		adapter.Queue = &q
+	} else {
+		adapter.Queue = options.Queue
 	}
 
 	msgs, err := ch.Consume(
