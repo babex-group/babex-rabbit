@@ -3,7 +3,7 @@ package rabbit
 import (
 	"encoding/json"
 
-	"github.com/matroskin13/babex"
+	"github.com/babex-group/babex"
 	"github.com/streadway/amqp"
 )
 

@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"errors"
-	"github.com/matroskin13/babex"
+	"github.com/babex-group/babex"
 	"github.com/streadway/amqp"
 )
 

@@ -1,0 +1,11 @@
+github.com/babex-group/babex v0.0.0-20181211162913-bbcaf6331e12 h1:b2h5BdzQMlS6K7dDdP4zog962zB94cC4hMmLwtSQ1YE=
+github.com/babex-group/babex v0.0.0-20181211162913-bbcaf6331e12/go.mod h1:PtbQ6lgAekR9ufgDDluOJYoTFAHtKDHHz7lgZ3c2wpA=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/opentracing/opentracing-go v1.0.2 h1:3jA2P6O1F9UOrWVpwrIo17pu01KWvNWg4X946/Y5Zwg=
+github.com/opentracing/opentracing-go v1.0.2/go.mod h1:UkNAQd3GIcIGf0SeVgPpRdFStlNbqXla1AfSYxPUl2o=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/streadway/amqp v0.0.0-20181205114330-a314942b2fd9 h1:37QTz/gdHBLQcsmgMTnQDSWCtKzJ7YnfI2M2yTdr4BQ=
+github.com/streadway/amqp v0.0.0-20181205114330-a314942b2fd9/go.mod h1:1WNBiOZtZQLpVAyu0iTduoJL9hEsMloAK5XWrtW0xdY=
+github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
+golang.org/x/net v0.0.0-20181029044818-c44066c5c816 h1:mVFkLpejdFLXVUv9E42f3XJVfMdqd0IVLVIVLjZWn5o=
+golang.org/x/net v0.0.0-20181029044818-c44066c5c816/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
